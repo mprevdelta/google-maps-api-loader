@@ -15,6 +15,7 @@ function loadAutoCompleteAPI(params) {
     libraries: params.libraries || [],
     callback: 'googleMapsAutoCompleteAPILoad',
     apiKey: params.apiKey,
+    mapId: params.mapId,
     client: params.client,
     language: params.language,
     version: params.version
